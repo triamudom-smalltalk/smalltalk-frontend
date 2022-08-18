@@ -55,7 +55,7 @@ const ViewMentorApp = () => {
         <div className="inset-x-1/2 -translate-x-1/2 relative rounded-full w-20 h-20 bg-[#B6C5D7]" />
 
         <div className="flex flex-col pt-4 items-center justify-center">
-          <p className="text-lg text-gray-700">ชัยชาญ ทหารของพระราชา</p>
+          <p className="text-lg text-gray-700">เรียนเด่น เล่นดี</p>
           <p className="font-light text-gray-700">จิตแพทย์</p>
         </div>
 
