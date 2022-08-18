@@ -1,12 +1,12 @@
+import ChatApp from "@components/Chat/ChatApp"
 import { DescribeRoute } from "@components/Meta/DescribeRoute"
-import AppMain from "@components/Home/Main"
 
-const Home = () => {
+const Chat = () => {
   return (
     <DescribeRoute title="Next.js boilerplate" description="by betich">
-      <AppMain />
+      <ChatApp />
     </DescribeRoute>
   )
 }
 
-export default Home
+export default Chat

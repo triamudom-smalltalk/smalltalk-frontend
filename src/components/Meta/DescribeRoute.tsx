@@ -1,13 +1,15 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
-import { FC, ReactElement } from "react"
+import { ReactElement } from "react"
 
-export const DescribeRoute: FC<{ title: string; description: string; imgURL?: string; children?: ReactElement }> = ({
-  title,
-  description,
-  imgURL,
-  children,
-}) => {
+interface DescribeRouteProps {
+  title: string
+  description: string
+  imgURL?: string
+  children?: ReactElement
+}
+
+export const DescribeRoute = ({ title, description, imgURL, children }: DescribeRouteProps) => {
   const router = useRouter()
 
   return (

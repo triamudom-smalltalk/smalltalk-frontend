@@ -1,12 +1,12 @@
+import MentorsApp from "@components/Mentors/MentorsApp"
 import { DescribeRoute } from "@components/Meta/DescribeRoute"
-import AppMain from "@components/Home/Main"
 
-const Home = () => {
+const Mentors = () => {
   return (
     <DescribeRoute title="Next.js boilerplate" description="by betich">
-      <AppMain />
+      <MentorsApp />
     </DescribeRoute>
   )
 }
 
-export default Home
+export default Mentors
