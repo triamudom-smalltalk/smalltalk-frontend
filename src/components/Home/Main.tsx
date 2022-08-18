@@ -1,4 +1,3 @@
-import { ChatIcon, DotsHorizontalIcon, UserCircleIcon, VideoCameraIcon } from "@heroicons/react/solid"
 import AppointmentSection from "./Cards/AppointmentSection"
 import UserSection from "./Cards/UserSection"
 
