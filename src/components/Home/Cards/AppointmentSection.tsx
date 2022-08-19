@@ -31,7 +31,7 @@ const AppointmentSection = ({ title }: AppoitnmentSectionProps) => {
 
       <div className="flex gap-2 items-center text-lg px-6 py-4">
         <div className="w-6 h-6 mr-2 bg-gray-700 rounded-full" />
-        <p className="">ชัยชาญ ชาญชัย</p>
+        <p className="">เรียนเด่น เล่นดี</p>
         <p className="font-light">จิตแพทย์</p>
       </div>
 
