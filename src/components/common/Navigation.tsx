@@ -38,7 +38,7 @@ const Navigation = () => {
             <UserGroupIcon className={clsx("w-6 h-6", getStyles("/mentors"))} />
           </a>
         </Link>
-        <Link href="/applit" passHref>
+        <Link href="/appoint" passHref>
           <a>
             <ClockIcon className={clsx("w-6 h-6", getStyles("/appoint"))} />
           </a>
