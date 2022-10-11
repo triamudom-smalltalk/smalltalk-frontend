@@ -8,11 +8,9 @@ import Navigation from "@components/common/Navigation"
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <MobileContainer>
-        <AppHeader />
-        <Component {...pageProps} />
-        <Navigation />
-      </MobileContainer>
+      <AppHeader />
+      <Component {...pageProps} />
+      <Navigation />
     </>
   )
 }
