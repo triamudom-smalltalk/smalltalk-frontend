@@ -6,11 +6,11 @@ import Navigation from "@components/common/Navigation"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <main className="font-display">
       <AppHeader />
       <Component {...pageProps} />
       <Navigation />
-    </>
+    </main>
   )
 }
 export default MyApp
