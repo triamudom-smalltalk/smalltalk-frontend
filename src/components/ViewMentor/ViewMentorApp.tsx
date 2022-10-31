@@ -7,7 +7,7 @@ const ContactSection = () => {
     <div className="rounded-lg border border-gray-100 bg-white shadow-sm py-4 px-6 mt-6">
       <div className="flex items-center gap-2">
         <IdentificationIcon className="w-6 h-6 text-gray-700" />
-        <p>Contact</p>
+        <p>ติดต่อ</p>
       </div>
 
       <div className="mt-6 text-gray-700 font-light">
@@ -22,7 +22,7 @@ const WorkExperienceSection = () => {
     <div className="rounded-lg border border-gray-100 bg-white shadow-sm py-4 px-6 mt-6">
       <div className="flex items-center gap-2">
         <BriefcaseIcon className="w-6 h-6 text-gray-700" />
-        <p className="">Work Experience</p>
+        <p className="">ประสบการณ์</p>
       </div>
 
       <div className="flex flex-col gap-3 mt-6 text-gray-700 font-light">
@@ -85,7 +85,7 @@ const SessionElement = ({ time, date, booked }: SessionElementProps) => {
 const ViewMentorApp = () => {
   return (
     <main className="h-full flex flex-col gap-4">
-      <section className="bg-gray-700 pb-10 px-6 relative -top-4">
+      <section className="bg-gray-700 pb-14 px-6 relative -top-4">
         <Link href="/mentors" passHref>
           <a className="flex items-center gap-2">
             <ArrowLeftIcon className="w-5 h-5 text-white" />
@@ -94,11 +94,11 @@ const ViewMentorApp = () => {
         </Link>
       </section>
 
-      <section className="-top-16 relative pb-36 px-6">
-        <div className="inset-x-1/2 -translate-x-1/2 relative rounded-full w-20 h-20 bg-[#B6C5D7]" />
+      <section className="-top-16 relative pb-36 rounded-t-3xl bg-gray-50 h-full flex flex-col gap-4 py-6 px-6">
+        <div className="inset-x-1/2 -translate-x-1/2 relative rounded-full w-36 h-36 bg-[#B6C5D7]" />
 
-        <div className="flex flex-col pt-4 items-center justify-center">
-          <p className="text-lg text-gray-700">เรียนเด่น เล่นดี</p>
+        <div className="flex flex-col  items-center justify-center">
+          <p className="text-lg font-medium text-gray-700">เรียนเด่น เล่นดี</p>
           <p className="font-light text-gray-700">จิตแพทย์</p>
         </div>
 

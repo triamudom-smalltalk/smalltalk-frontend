@@ -15,7 +15,7 @@ const Navigation = () => {
     if (location === path) {
       return "text-gray-400"
     } else {
-      return "text-gray-200"
+      return "text-gray-200 hover:text-gray-300"
     }
   }
 
@@ -23,9 +23,9 @@ const Navigation = () => {
     <nav
       style={{
         background: "#FFFFFF",
-        boxShadow: "0px 0px 12px -12px rgba(0, 0, 0, 0.15)",
+        boxShadow: "12px -12px 12px -12px rgba(0, 0, 0, 0.15)",
       }}
-      className="fixed bottom-0 z-50 px-8 py-6 w-full bg-white rounded-t-2xl border border-gray-100"
+      className="fixed bottom-0 z-50 px-8 py-6 w-full bg-white rounded-t-3xl border border-gray-100"
     >
       <div className="flex items-center justify-between">
         <Link href="/" passHref>
