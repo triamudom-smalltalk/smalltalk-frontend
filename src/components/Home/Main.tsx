@@ -3,7 +3,7 @@ import UserSection from "./Cards/UserSection"
 
 const AppMain = () => {
   return (
-    <main className="-top-6 relative rounded-t-3xl bg-gray-50 h-full flex flex-col gap-4 py-6 px-6">
+    <main className="-top-6 relative rounded-t-3xl bg-gray-100 h-full flex flex-col gap-4 py-6 px-6">
       <UserSection />
       <h2 className="text-lg text-gray-700">Upcoming</h2>
 

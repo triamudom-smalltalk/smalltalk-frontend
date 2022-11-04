@@ -25,7 +25,7 @@ const MentorCard = () => {
 
 const MentorsApp = () => {
   return (
-    <main className="-top-6 relative rounded-t-3xl bg-gray-50 h-full flex flex-col gap-4 py-6 px-6">
+    <main className="-top-6 relative rounded-t-3xl bg-gray-100 h-full flex flex-col gap-4 py-6 px-6">
       <h1 className="text-gray-700 text-center font-bold text-2xl py-5">Mentors</h1>
 
       <section className="flex flex-col items-center justify-center gap-4 pb-24">

@@ -13,9 +13,9 @@ const Navigation = () => {
 
   const getStyles = (path: string) => {
     if (location === path) {
-      return "text-gray-400"
+      return "text-gray-500"
     } else {
-      return "text-gray-200 hover:text-gray-300"
+      return "text-gray-300 hover:text-gray-400"
     }
   }
 
@@ -27,7 +27,7 @@ const Navigation = () => {
       }}
       className="fixed bottom-0 z-50 px-8 py-6 w-full bg-white rounded-t-3xl border border-gray-100"
     >
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-around gap-8">
         <Link href="/" passHref>
           <a>
             <HomeIcon className={clsx("w-6 h-6", getStyles("/"))} />

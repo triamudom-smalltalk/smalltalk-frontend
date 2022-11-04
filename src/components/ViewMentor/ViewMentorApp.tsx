@@ -19,7 +19,7 @@ const ContactSection = () => {
 
 const WorkExperienceSection = () => {
   return (
-    <div className="rounded-lg border border-gray-100 bg-white shadow-sm py-4 px-6 mt-6">
+    <div className="rounded-lg border border-gray-100 bg-white shadow-sm py-4 px-6 mt-3">
       <div className="flex items-center gap-2">
         <BriefcaseIcon className="w-6 h-6 text-gray-700" />
         <p className="">ประสบการณ์</p>
@@ -94,7 +94,7 @@ const ViewMentorApp = () => {
         </Link>
       </section>
 
-      <section className="-top-16 relative pb-36 rounded-t-3xl bg-gray-50 h-full flex flex-col gap-4 py-6 px-6">
+      <section className="-top-16 relative pb-36 rounded-t-3xl bg-gray-100 h-full flex flex-col gap-4 py-6 px-6">
         <div className="inset-x-1/2 -translate-x-1/2 relative rounded-full w-36 h-36 bg-[#B6C5D7]" />
 
         <div className="flex flex-col  items-center justify-center">
